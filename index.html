@@ -1,0 +1,1073 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motta</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://kit.fontawesome.com/066942706e.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <section class="d-none d-md-block topbar">
+            <div class="container">
+                <div class="d-flex justify-content-between">
+                    <div class="d-flex column-gap-4">
+                        <div class="d-flex align-items-center column-gap-2">
+                            <i class="fa-solid fa-globe" style="color: #7c818b;"></i>
+                            <p>English</p>
+                        </div>
+                        <div class="d-flex align-items-center column-gap-2">
+                            <i class="fa-solid fa-money-bill" style="color: #7c818b;"></i>
+                            <p>USD</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center column-gap-4">
+                        <div class="d-flex align-items-center column-gap-2">
+                            <i class="fa-solid fa-box" style="color: #7c818b;"></i>
+                            <p>Track Order</p>
+                        </div>
+                        <div class="d-flex align-items-center column-gap-2">
+                            <i class="fa-regular fa-circle-question" style="color: #7c818b;"></i>
+                            <p>Help Center</p>
+                        </div>
+                        <div class="d-flex align-items-center column-gap-2">
+                            <i class="fa-solid fa-arrow-right-arrow-left" style="color: #7c818b;"></i>
+                            <p>Compare</p>
+                        </div>
+                        <div class="d-flex align-items-center column-gap-2">
+                            <i class="fa-regular fa-heart" style="color: #7c818b;"></i>
+                            <p>Wishlist</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="site-header">
+            <div class="container">
+                <div class="d-flex justify-content-between mb-3 mb-lg-0">
+                    <div class="d-flex align-items-center column-gap-2 left">
+                        <div class="hamburger-menu d-inline d-lg-none">
+                            <i class="fa-solid fa-bars" style="color: #1d2128; font-size: 20px;"></i>
+                        </div>
+                        <div class="image">
+                            <img src="./assets/images/logo.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="d-none d-lg-flex align-items-center middle">
+                        <form action="" class="d-flex align-items-center justify-content-center">
+                            <input type="search" placeholder="Search for anything">
+                            <button><i class="fa-solid fa-magnifying-glass" style="color: #fff;"></i></button>
+                        </form>
+                    </div>
+                    <div class="d-flex column-gap-4 right">
+                        <div class="d-flex align-items-center column-gap-2"><i class="fa-solid fa-user"
+                                style="color: #1d2128;"></i><a href="#" class="d-none d-xl-inline">Account</a></div>
+                        <div class="d-flex align-items-center column-gap-2"><i class="fa-solid fa-cart-shopping"
+                                style="color: #1d2128;"></i><a href="#" class="d-none d-xl-inline">Cart</a></div>
+                    </div>
+                </div>
+                <div class="d-flex d-lg-none align-items-center justify-content-center">
+                    <form action="" class="d-flex align-items-center justify-content-center">
+                        <input type="search" placeholder="Search for anything">
+                        <button><i class="fa-solid fa-magnifying-glass" style="color: #fff;"></i></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="navbar-section d-none d-lg-block">
+            <div class="container">
+                <div class="d-flex justify-content-between">
+                    <div class="d-flex column-gap-5">
+                        <div class="category">
+                            <div class="d-flex align-items-center column-gap-3">
+                                <div class="icon"> <i class="fa-regular fa-square-minus"
+                                        style="color: #7c818b; font-size: 20px;"></i></div>
+                                <p>Shop by Category</p>
+                            </div>
+                            <div class="d-flex align-items-center column-gap-3">
+                                <div class="icon"><i class="fa-solid fa-chair"></i></div><a href="#">Home & Garden</a>
+                            </div>
+                            <div class="d-flex align-items-center column-gap-3">
+                                <div class="icon"><i class="fa-solid fa-calculator"></i></div><a
+                                    href="#">Electronics</a>
+                            </div>
+                            <div class="d-flex align-items-center column-gap-3">
+                                <div class="icon"><i class="fa-solid fa-shirt"></i></div><a href="#">Fashion</a>
+                            </div>
+                            <div class="d-flex align-items-center column-gap-3">
+                                <div class="icon"><i class="fa-solid fa-gem"></i></div><a href="#">Jewellery &
+                                    Accessories</a>
+                            </div>
+                            <div class="d-flex align-items-center column-gap-3">
+                                <div class="icon"><i class="fa-solid fa-futbol"></i></div><a href="#">Sports &
+                                    Entertainment</a>
+                            </div>
+                            <div class="d-flex align-items-center column-gap-3">
+                                <div class="icon"><i class="fa-solid fa-baby-carriage"></i></div><a href="#">Mother &
+                                    Kids</a>
+                            </div>
+                            <div class="d-flex align-items-center column-gap-3">
+                                <div class="icon"><i class="fa-brands fa-discord"></i></div><a href="#">Beauty &
+                                    Health</a>
+                            </div>
+                            <div class="d-flex align-items-center column-gap-3">
+                                <div class="icon"><i class="fa-solid fa-gamepad"></i></div><a href="#">Toys & Games</a>
+                            </div>
+                            <div class="d-flex align-items-center column-gap-3">
+                                <div class="icon"><i class="fa-solid fa-wheelchair-move"></i></div><a
+                                    href="#">Automobiles & Motorcycles</a>
+                            </div>
+                            <div class="d-flex align-items-center column-gap-3">
+                                <div class="icon"><i class="fa-solid fa-image"></i></div><a href="#">Collectibles &
+                                    Art</a>
+                            </div>
+                            <div class="d-flex align-items-center column-gap-3">
+                                <div class="icon"><i class="fa-solid fa-paint-roller"></i></div><a href="#">Tools & Home
+                                    Improvement</a>
+                            </div>
+                        </div>
+                        <div class="nav-container">
+                            <nav class="navbar navbar-expand-lg">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link">Shop</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link">Pages</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <p>Shop Today's Deals</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="carousel-section">
+            <div class="container d-flex justify-content-end">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="carousel-text first">
+                                <p class="mb-2">NEW ARRIVALS</p>
+                                <h1>Hot Right Now</h1>
+                                <p class="my-3">Retro Remixed For The Future
+                                    Starting at $110</p>
+                                <button>Shop Now</button>
+                            </div>
+                            <img src="./assets/images/homev1-slider01.webp" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-text second">
+                                <p class="mb-2">EDITORIALS</p>
+                                <h1>Hot Right Now</h1>
+                                <p class="my-3">It bring light and happiness to your house, like a sun beam after the
+                                    rain</p>
+                                <button>Shop Now</button>
+                            </div>
+                            <img src="./assets/images/homev1-slider02.webp" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-text third">
+                                <p class="mb-2">FEATURED</p>
+                                <h1>Bring it anywhere</h1>
+                                <p class="my-3">The perfect portable speaker for home and away</p>
+                                <button>Shop Now</button>
+                            </div>
+                            <img src="./assets/images/homev1-slider03.webp" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="card-section">
+            <div class="container">
+                <div class="my-3">
+                    <h1>Today's Best Deals</h1>
+                </div>
+                <div class="d-flex column-gap-3 card-container">
+                    <div>
+                        <div>
+                            <div class="background"></div>
+                            <div class="text-container">
+                                <h1>
+                                    Small
+                                    <br>
+                                    Appliances
+                                </h1>
+                                <p>Up to 40% off Kitchen Products.</p>
+                                <a href="#">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <div class="background"></div>
+                            <div class="text-container">
+                                <h1>
+                                    Premium
+                                    <br>
+                                    Beauty
+                                </h1>
+                                <p>Up to 40% off Kitchen Products.</p>
+                                <a href="#">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <div class="background"></div>
+                            <div class="text-container">
+                                <h1>
+                                    Indoor
+                                    <br>
+                                    Furniture
+                                </h1>
+                                <p>Up to 40% off Kitchen Products.</p>
+                                <a href="#">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <div class="background"></div>
+                            <div class="text-container">
+                                <h1>
+                                    Cell Phones
+                                    <br>
+                                    & Smartphones
+                                </h1>
+                                <p>Up to 40% off Kitchen Products.</p>
+                                <a href="#">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="flash-deals">
+            <div class="container">
+                <div class="my-3">
+                    <h1>Flash Deals</h1>
+                </div>
+                <div class="slider">
+                    <div class="card-container">
+                        <div class="image">
+                            <img src="./assets/images/1.webp" alt="">
+                            <img src="./assets/images/1-1.webp" alt="">
+                        </div>
+                        <div>
+                            <div>
+                                <p>Town Truck & Tracked Excavator 10812 (26 Pieces)</p>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <p>(1)</p>
+                            </div>
+                            <div class="d-flex column-gap-2 my-2">
+                                <p>$19.00</p>
+                                <del>
+                                    <p>$21.00</p>
+                                </del>
+                            </div>
+                            <div class="d-flex column-gap-2 align-items-center my-2">
+                                <img style="height: 16px; width: 16px;" src="./assets/images/vendor-logo-7.webp" alt="">
+                                <p>Bordo</p>
+                            </div>
+                            <div class="lines">
+                                <div style="height: 4px; background-color: #E4E4E4; border-radius: 2px;"></div>
+                                <div style="height: 4px; background-color: black; border-radius: 2px; width: 20px;">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="my-1">
+                                    <p>20 sold</p>
+                                </div>
+                            </div>
+                            <div class="buttons d-flex flex-column row-gap-2">
+                                <button>Add to cart</button>
+                                <button>Quick view</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card-container">
+                        <div class="image">
+                            <img src="./assets/images/2.webp" alt="">
+                            <img src="./assets/images/2-1.webp" alt="">
+                        </div>
+                        <div>
+                            <div>
+                                <p>Town Truck & Tracked Excavator 10812 (26 Pieces)</p>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <p>(1)</p>
+                            </div>
+                            <div class="d-flex column-gap-2 my-2">
+                                <p>$19.00</p>
+                                <del>
+                                    <p>$21.00</p>
+                                </del>
+                            </div>
+                            <div class="d-flex column-gap-2 align-items-center my-2">
+                                <img style="height: 16px; width: 16px;" src="./assets/images/vendor-logo-7.webp" alt="">
+                                <p>Bordo</p>
+                            </div>
+                            <div class="lines">
+                                <div style="height: 4px; background-color: #E4E4E4; border-radius: 2px;"></div>
+                                <div style="height: 4px; background-color: black; border-radius: 2px; width: 20px;">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="my-1">
+                                    <p>20 sold</p>
+                                </div>
+                            </div>
+                            <div class="buttons d-flex flex-column row-gap-2">
+                                <button>Add to cart</button>
+                                <button>Quick view</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-container">
+                        <div class="image">
+                            <img src="./assets/images/3.webp" alt="">
+                            <img src="./assets/images/3-1.webp" alt="">
+                        </div>
+                        <div>
+                            <div>
+                                <p>Town Truck & Tracked Excavator 10812 (26 Pieces)</p>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <p>(1)</p>
+                            </div>
+                            <div class="d-flex column-gap-2 my-2">
+                                <p>$19.00</p>
+                                <del>
+                                    <p>$21.00</p>
+                                </del>
+                            </div>
+                            <div class="d-flex column-gap-2 align-items-center my-2">
+                                <img style="height: 16px; width: 16px;" src="./assets/images/vendor-logo-7.webp" alt="">
+                                <p>Bordo</p>
+                            </div>
+                            <div class="lines">
+                                <div style="height: 4px; background-color: #E4E4E4; border-radius: 2px;"></div>
+                                <div style="height: 4px; background-color: black; border-radius: 2px; width: 20px;">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="my-1">
+                                    <p>20 sold</p>
+                                </div>
+                            </div>
+                            <div class="buttons d-flex flex-column row-gap-2">
+                                <button>Add to cart</button>
+                                <button>Quick view</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-container">
+                        <div class="image">
+                            <img src="./assets/images/4.webp" alt="">
+                            <img src="./assets/images/4-1.webp" alt="">
+                        </div>
+                        <div>
+                            <div>
+                                <p>Town Truck & Tracked Excavator 10812 (26 Pieces)</p>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <p>(1)</p>
+                            </div>
+                            <div class="d-flex column-gap-2 my-2">
+                                <p>$19.00</p>
+                                <del>
+                                    <p>$21.00</p>
+                                </del>
+                            </div>
+                            <div class="d-flex column-gap-2 align-items-center my-2">
+                                <img style="height: 16px; width: 16px;" src="./assets/images/vendor-logo-7.webp" alt="">
+                                <p>Bordo</p>
+                            </div>
+                            <div class="lines">
+                                <div style="height: 4px; background-color: #E4E4E4; border-radius: 2px;"></div>
+                                <div style="height: 4px; background-color: black; border-radius: 2px; width: 20px;">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="my-1">
+                                    <p>20 sold</p>
+                                </div>
+                            </div>
+                            <div class="buttons d-flex flex-column row-gap-2">
+                                <button>Add to cart</button>
+                                <button>Quick view</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-container">
+                        <div class="image">
+                            <img src="./assets/images/5.webp" alt="">
+                            <img src="./assets/images/5-1.webp" alt="">
+                        </div>
+                        <div>
+                            <div>
+                                <p>Town Truck & Tracked Excavator 10812 (26 Pieces)</p>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <p>(1)</p>
+                            </div>
+                            <div class="d-flex column-gap-2 my-2">
+                                <p>$19.00</p>
+                                <del>
+                                    <p>$21.00</p>
+                                </del>
+                            </div>
+                            <div class="d-flex column-gap-2 align-items-center my-2">
+                                <img style="height: 16px; width: 16px;" src="./assets/images/vendor-logo-7.webp" alt="">
+                                <p>Bordo</p>
+                            </div>
+                            <div class="lines">
+                                <div style="height: 4px; background-color: #E4E4E4; border-radius: 2px;"></div>
+                                <div style="height: 4px; background-color: black; border-radius: 2px; width: 20px;">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="my-1">
+                                    <p>20 sold</p>
+                                </div>
+                            </div>
+                            <div class="buttons d-flex flex-column row-gap-2">
+                                <button>Add to cart</button>
+                                <button>Quick view</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-container">
+                        <div class="image">
+                            <img src="./assets/images/6.webp" alt="">
+                            <img src="./assets/images/6-1.webp" alt="">
+                        </div>
+                        <div>
+                            <div>
+                                <p>Town Truck & Tracked Excavator 10812 (26 Pieces)</p>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <p>(1)</p>
+                            </div>
+                            <div class="d-flex column-gap-2 my-2">
+                                <p>$19.00</p>
+                                <del>
+                                    <p>$21.00</p>
+                                </del>
+                            </div>
+                            <div class="d-flex column-gap-2 align-items-center my-2">
+                                <img style="height: 16px; width: 16px;" src="./assets/images/vendor-logo-7.webp" alt="">
+                                <p>Bordo</p>
+                            </div>
+                            <div class="lines">
+                                <div style="height: 4px; background-color: #E4E4E4; border-radius: 2px;"></div>
+                                <div style="height: 4px; background-color: black; border-radius: 2px; width: 20px;">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="my-1">
+                                    <p>20 sold</p>
+                                </div>
+                            </div>
+                            <div class="buttons d-flex flex-column row-gap-2">
+                                <button>Add to cart</button>
+                                <button>Quick view</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="services">
+            <div class="container">
+                <div class="d-flex flex-column flex-md-row gap-3 justify-content-between">
+                    <div class="d-flex flex-row flex-md-column flex-lg-row card-container gap-3">
+                        <div class="image d-flex align-items-center">
+                            <img src="./assets/images/moneyback.svg" alt="">
+                        </div>
+                        <div>
+                            <h5>Money Back Guarantee</h5>
+                            <p>Get the item you ordered or your
+                                money back</p>
+                            <a href="#">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row flex-md-column flex-lg-row card-container gap-3">
+                        <div class="image d-flex align-items-center">
+                            <img src="./assets/images/freeshipping.svg" alt="">
+                        </div>
+                        <div>
+                            <h5>Free Shipping</h5>
+                            <p>Free Shipping On Orders Over
+                                $100</p>
+                            <a href="#">Details</a>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row flex-md-column flex-lg-row card-container gap-3">
+                        <div class="image d-flex align-items-center">
+                            <img src="./assets/images/customerservice.svg" alt="">
+                        </div>
+                        <div>
+                            <h5>24/7 Customer Service</h5>
+                            <p>Want to talk to a person? Choose
+                                chat or call us</p>
+                            <a href="#">Get Support</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="favourite-deals">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center my-2">
+                    <h1>Our Favorite Deals This Week</h1>
+                    <a href="#">See All Deals</a>
+                </div>
+                <div class="d-flex justify-content-between card-container slider">
+                    <div>
+                        <div class="text-container">
+                            <h1>Kitchen tools &
+                                <br>
+                                Accessories
+                            </h1>
+                            <p class="my-2">Charming kitchenware and bohemian
+                                touches worth getting out of bed for.</p>
+                            <button>Shop Now</button>
+                        </div>
+                        <div class="image">
+                            <img src="./assets/images/homev1-kitchen-tools-accessories.webp" alt="">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="text-container">
+                            <h1>Screen-free Fun,
+                                <br>
+                                Anyone?
+                            </h1>
+                            <p class="my-2">From games & puzzles to arts & crafts,
+                                get fun activities for every age.</p>
+                            <button>Shop Now</button>
+                        </div>
+                        <div class="image">
+                            <img src="./assets/images/homev1-Screen-free-fun.webp" alt="">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="text-container">
+                            <h1>The Spring
+                                <br>
+                                Fling
+                            </h1>
+                            <p class="my-2">These styles, those prices, the timing —
+                                I mean, it's like it was meant to be!</p>
+                            <button>Shop Now</button>
+                        </div>
+                        <div class="image">
+                            <img src="./assets/images/homev1-the-spring-fling.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="brands">
+            <div class="container">
+                <div class="scrollable">
+                    <div class="d-flex">
+                        <div class="card-container">
+                            <div class="image">
+                                <img src="./assets/images/homev1-nature.webp" alt="">
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="image">
+                                <img src="./assets/images/homev1-classic.webp" alt="">
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="image">
+                                <img src="./assets/images/homev1-brandit.webp" alt="">
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="image">
+                                <img src="./assets/images/homev1-alisa.webp" alt="">
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="image">
+                                <img src="./assets/images/homev1-westside.webp" alt="">
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="image">
+                                <img src="./assets/images/homev1-smile.webp" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="flash-deals">
+            <div class="container">
+                <div class="my-3">
+                    <h1>Flash Deals</h1>
+                </div>
+                <div class="slider">
+                    <div class="card-container">
+                        <div class="image">
+                            <img src="./assets/images/1 (1).webp" alt="">
+                            <img src="./assets/images/1-1 (1).webp" alt="">
+                        </div>
+                        <div>
+                            <div>
+                                <p>Town Truck & Tracked Excavator 10812 (26 Pieces)</p>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <p>(1)</p>
+                            </div>
+                            <div class="d-flex column-gap-2 my-2">
+                                <p>$19.00</p>
+                                <del>
+                                    <p>$21.00</p>
+                                </del>
+                            </div>
+                            <div class="d-flex column-gap-2 align-items-center my-2">
+                                <img style="height: 16px; width: 16px;" src="./assets/images/vendor-logo-7.webp" alt="">
+                                <p>Bordo</p>
+                            </div>
+                            <div class="buttons d-flex flex-column row-gap-2">
+                                <button>Add to cart</button>
+                                <button>Quick view</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card-container">
+                        <div class="image">
+                            <img src="./assets/images/2 (1).webp" alt="">
+                            <img src="./assets/images/2-1 (1).webp" alt="">
+                        </div>
+                        <div>
+                            <div>
+                                <p>Town Truck & Tracked Excavator 10812 (26 Pieces)</p>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <p>(1)</p>
+                            </div>
+                            <div class="d-flex column-gap-2 my-2">
+                                <p>$19.00</p>
+                                <del>
+                                    <p>$21.00</p>
+                                </del>
+                            </div>
+                            <div class="d-flex column-gap-2 align-items-center my-2">
+                                <img style="height: 16px; width: 16px;" src="./assets/images/vendor-logo-7.webp" alt="">
+                                <p>Bordo</p>
+                            </div>
+                            <div class="buttons d-flex flex-column row-gap-2">
+                                <button>Add to cart</button>
+                                <button>Quick view</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-container">
+                        <div class="image">
+                            <img src="./assets/images/3 (1).webp" alt="">
+                            <img src="./assets/images/3-1 (1).webp" alt="">
+                        </div>
+                        <div>
+                            <div>
+                                <p>Town Truck & Tracked Excavator 10812 (26 Pieces)</p>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <p>(1)</p>
+                            </div>
+                            <div class="d-flex column-gap-2 my-2">
+                                <p>$19.00</p>
+                                <del>
+                                    <p>$21.00</p>
+                                </del>
+                            </div>
+                            <div class="d-flex column-gap-2 align-items-center my-2">
+                                <img style="height: 16px; width: 16px;" src="./assets/images/vendor-logo-7.webp" alt="">
+                                <p>Bordo</p>
+                            </div>
+                            <div class="buttons d-flex flex-column row-gap-2">
+                                <button>Add to cart</button>
+                                <button>Quick view</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-container">
+                        <div class="image">
+                            <img src="./assets/images/4 (1).webp" alt="">
+                            <img src="./assets/images/4-1 (1).webp" alt="">
+                        </div>
+                        <div>
+                            <div>
+                                <p>Town Truck & Tracked Excavator 10812 (26 Pieces)</p>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <p>(1)</p>
+                            </div>
+                            <div class="d-flex column-gap-2 my-2">
+                                <p>$19.00</p>
+                                <del>
+                                    <p>$21.00</p>
+                                </del>
+                            </div>
+                            <div class="d-flex column-gap-2 align-items-center my-2">
+                                <img style="height: 16px; width: 16px;" src="./assets/images/vendor-logo-7.webp" alt="">
+                                <p>Bordo</p>
+                            </div>
+                            <div class="buttons d-flex flex-column row-gap-2">
+                                <button>Add to cart</button>
+                                <button>Quick view</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-container">
+                        <div class="image">
+                            <img src="./assets/images/5 (1).webp" alt="">
+                            <img src="./assets/images/5-1 (1).webp" alt="">
+                        </div>
+                        <div>
+                            <div>
+                                <p>Town Truck & Tracked Excavator 10812 (26 Pieces)</p>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <p>(1)</p>
+                            </div>
+                            <div class="d-flex column-gap-2 my-2">
+                                <p>$19.00</p>
+                                <del>
+                                    <p>$21.00</p>
+                                </del>
+                            </div>
+                            <div class="d-flex column-gap-2 align-items-center my-2">
+                                <img style="height: 16px; width: 16px;" src="./assets/images/vendor-logo-7.webp" alt="">
+                                <p>Bordo</p>
+                            </div>
+                            <div class="buttons d-flex flex-column row-gap-2">
+                                <button>Add to cart</button>
+                                <button>Quick view</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-container">
+                        <div class="image">
+                            <img src="./assets/images/6 (1).webp" alt="">
+                            <img src="./assets/images/6-1 (1).webp" alt="">
+                        </div>
+                        <div>
+                            <div>
+                                <p>Town Truck & Tracked Excavator 10812 (26 Pieces)</p>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffa132;"></i>
+                                <p>(1)</p>
+                            </div>
+                            <div class="d-flex column-gap-2 my-2">
+                                <p>$19.00</p>
+                                <del>
+                                    <p>$21.00</p>
+                                </del>
+                            </div>
+                            <div class="d-flex column-gap-2 align-items-center my-2">
+                                <img style="height: 16px; width: 16px;" src="./assets/images/vendor-logo-7.webp" alt="">
+                                <p>Bordo</p>
+                            </div>
+                            <div class="buttons d-flex flex-column row-gap-2">
+                                <button>Add to cart</button>
+                                <button>Quick view</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="category">
+            <div class="container">
+                <div>
+                    <h1>Explore More Categories</h1>
+                </div>
+                <div class="scrollable">
+                    <div class="d-flex">
+                        <div class="card-container d-flex flex-column align-items-center">
+                            <div class="image">
+                                <img src="./assets/images/homev1-furniture.webp" alt="">
+                            </div>
+                            <div class="my-2">
+                                <h6>Furniture</h6>
+                            </div>
+                        </div>
+                        <div class="card-container d-flex flex-column align-items-center">
+                            <div class="image">
+                                <img src="./assets/images/homev1-shoes.webp" alt="">
+                            </div>
+                            <div class="my-2">
+                                <h6>Shoes</h6>
+                            </div>
+                        </div>
+                        <div class="card-container d-flex flex-column align-items-center">
+                            <div class="image">
+                                <img src="./assets/images/homev1-smartphones.webp" alt="">
+                            </div>
+                            <div class="my-2">
+                                <h6>Smartphones</h6>
+                            </div>
+                        </div>
+                        <div class="card-container d-flex flex-column align-items-center">
+                            <div class="image">
+                                <img src="./assets/images/homev1-airprufiers.webp" alt="">
+                            </div>
+                            <div class="my-2">
+                                <h6>Air Purifiers</h6>
+                            </div>
+                        </div>
+                        <div class="card-container d-flex flex-column align-items-center">
+                            <div class="image">
+                                <img src="./assets/images/homev1-toys.webp" alt="">
+                            </div>
+                            <div class="my-2">
+                                <h6>Toys</h6>
+                            </div>
+                        </div>
+                        <div class="card-container d-flex flex-column align-items-center">
+                            <div class="image">
+                                <img src="./assets/images/homev1-headphones.webp" alt="">
+                            </div>
+                            <div class="my-2">
+                                <h6>Headphones</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="keep-in-touch">
+            <div class="container">
+                <div class="d-flex flex-column flex-lg-row row-gap-5">
+                    <div class="d-flex column-gap-5">
+                        <div>
+                            <i class="fa-solid fa-phone" style="color: #1d2128;"></i>
+                            <h6 class="my-2">Call</h6>
+                            <p class="mb-2">Call us from 8am to
+                                <br>
+                                12am ET.
+                            </p>
+                            <a href="tel:1-866-237-8289">1-866-237-8289</a>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-envelope" style="color: #1d2128;"></i>
+                            <h6 class="my-2">Email</h6>
+                            <p class="mb-2">Our response time is
+                                <br>
+                                1 to 3 business days.
+                            </p>
+                            <a href="#">Send a Message</a>
+                        </div>
+                    </div>
+                    <div class="container d-block d-lg-none">
+                        <div style="height: 1px; background-color: #e0e3e8;"></div>
+                    </div>
+                    <div class="form-container d-flex flex-column justify-content-center">
+                        <h1>Let's keep in touch</h1>
+                        <p class="my-3">Get recommendations, tips, updates, promotions and more.</p>
+                        <div>
+                            <form action="">
+                                <input type="email" placeholder="Enter you email address">
+                                <button>Subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container my-5">
+                <div style="height: 1px; background-color: #e0e3e8;"></div>
+            </div>
+            <section class="links">
+                <div class="container">
+                    <div class="d-flex flex-column flex-lg-row row-gap-5">
+                        <div>
+                            <div class="image">
+                                <img src="./assets/images/Logo-v1.png" alt="">
+                            </div>
+                            <div class="my-4">
+                                <h5 class="mb-2">Best for shopping</h5>
+                                <p>Sed do eiusmod tempor
+                                    incididuntut labore dolore magna.</p>
+                            </div>
+                            <div class="icons d-flex column-gap-4">
+                                <i class="fa-brands fa-twitter" style="color: #7b818b;"></i>
+                                <i class="fa-brands fa-facebook" style="color: #7b818b;"></i>
+                                <i class="fa-brands fa-youtube" style="color: #7b818b;"></i>
+                                <i class="fa-brands fa-instagram" style="color: #7b818b;"></i>
+                                <i class="fa-brands fa-whatsapp" style="color: #7b818b;"></i>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-lg-between flex-column flex-lg-row">
+                            <div class="d-flex flex-column">
+                                <h6 class="mb-2">Get to Know Us</h6>
+                                <div class="d-flex flex-column row-gap-1">
+                                    <a href="#">About Us</a>
+                                    <a href="#">News & Blog</a>
+                                    <a href="#">Careers</a>
+                                    <a href="#">Investors</a>
+                                    <a href="#">Contact Us</a>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column my-4 my-lg-0">
+                                <h6 class="mb-2">Customer Service</h6>
+                                <div class="d-flex flex-column row-gap-1">
+                                    <a href="#">Help Center</a>
+                                    <a href="#">FAQ's</a>
+                                    <a href="#">Accessibility</a>
+                                    <a href="#">Feedback</a>
+                                    <a href="#">Size Guide</a>
+                                    <a href="#">Payment Method</a>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column">
+                                <h6 class="mb-2">Orders & Returns</h6>
+                                <div class="d-flex flex-column row-gap-1">
+                                    <a href="#">Track Order</a>
+                                    <a href="#">Shipping & Delivery</a>
+                                    <a href="#">Return & Exchange</a>
+                                    <a href="#">Price Match Guarantee</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="container my-5">
+                <div style="height: 1px; background-color: #e0e3e8;"></div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="d-flex justify-content-center justify-content-lg-between mb-4">
+                    <div class="d-flex column-gap-1 column-gap-lg-3">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Use</a>
+                        <a href="#">Legal</a>
+                        <a href="#">Site Map</a>
+                    </div>
+                    <div class="image d-none d-lg-flex">
+                        <img src="./assets/images/payment.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pb-5">
+            <div class="container">
+                <div class="d-flex justify-content-center justify-content-lg-between">
+                    <div>
+                        <p>Copyright © 2024 Motta, All rights reserved.</p>
+                    </div>
+                    <div class="d-none d-lg-flex column-gap-4">
+                        <div class="d-flex align-items-center column-gap-2">
+                            <i class="fa-solid fa-globe" style="color: #7c818b;"></i>
+                            <p>English</p>
+                        </div>
+                        <div class="d-flex align-items-center column-gap-2">
+                            <i class="fa-solid fa-money-bill" style="color: #7c818b;"></i>
+                            <p>USD</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+
+</html>
